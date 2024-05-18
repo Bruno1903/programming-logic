@@ -11,10 +11,10 @@ Inicio
       y <- 3.0
       z <- -7.0
       
-      a <- Exp(x, y)
-      b <- Raizq(y)
-      c <- Pi
-      d <- Abs(z)
+      a <- Exp(x, y)   //Variavel a recebe o resultado de x elevado a y
+      b <- Raizq(y)    //Variavel b recebe a raiz quadrada de y
+      c <- Pi          //Variavel c recebe o valor de pi
+      d <- Abs(z)      //Variavel d recebe o valor absoluto de z
       
       escreval(a)
       escreval(b)
