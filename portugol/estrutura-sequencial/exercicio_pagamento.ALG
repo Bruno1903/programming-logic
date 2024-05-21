@@ -1,5 +1,16 @@
 Algoritmo "problemaPagamento"
 
+//Enunciado
+
+//Fazer um programa para ler o nome de um(a) funcionário(a),
+//o valor que ele(a) recebe por hora, e a
+//quantidade de horas trabalhadas por ele(a). Ao f
+
+//Nome: Joao Silva
+//Valor por hora: 50.00
+//Horas trabalhadas: 60
+//O pagamento para Joao Silva deve ser 3000.00
+
 Var
 
    nome : caractere
