@@ -22,10 +22,27 @@ Inicio
       leia(final)
       
       //hora inicial - 24 + horafinal se o numero for maior que 12
-      se inicial = final entao
-         escreva("O JOGO DUROU 24 HORAS(S)")
+      se inicial < final entao
+         duracao <- final - inicial
       senao
-           se
+           duracao <- 24 - inicial + final
+      fimse
+      
+      escreva("O JOGO DUROU ", duracao, " HORA(S)")
+
+//Solucao do professor
+// escreva("Hora inicial: ")
+//   leia(horaInicial)
+//   escreva("Hora final: ")
+//   leia(horaFinal)
+//
+//   se horaInicial < horaFinal entao
+//      duracao <- horaFinal - horaInicial
+//   senao
+//      duracao <- 24 - horaInicial + horaFinal
+//   fimse
+//
+//  escreval("O JOGO DUROU ", duracao, " HORA(S)")
 
 
 Fimalgoritmo
