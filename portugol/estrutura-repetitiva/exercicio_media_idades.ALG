@@ -29,16 +29,36 @@ Inicio
       se idade >= 0 entao
          enquanto idade >= 0 faca
                leia(idade)
-               soma <- soma + idade
-               quantidade <- quantidade + 1
+               se idade >= 0 entao
+                  soma <- soma + idade
+                  quantidade <- quantidade + 1
+               senao
+               fimse
          fimenquanto
 
-         quantidade <- quantidade - 1
          media <- soma / quantidade
-         escreval("MEDIA: ", media)
+         escreval("MEDIA: ", media:4:2)
       senao
            escreval("IMPOSSIVEL CALCULAR")
       fimse
-      
+
+//Solucao do professor
+//soma <- 0
+//   cont <- 0
+//   escreval("Digite as idades:")
+//   leia(idade)
+//
+//  enquanto idade >= 0 faca
+//      soma <- soma + idade
+//      cont <- cont + 1
+//      leia(idade)
+//   fimenquanto
+//
+//   se cont = 0 entao
+//      escreva("IMPOSSIVEL CALCULAR")
+//   senao
+//      media <- soma / cont
+//      escreva("MEDIA = ", media:8:2)
+//   fimse
 
 Fimalgoritmo
